@@ -1,13 +1,46 @@
+
 body{
-    background-color: rgb(130, 115, 115);
+    margin: 0%;
+    padding: 0%;
+    background-color: rgb(105, 118, 6);
+}
+.cont{
+    margin: 0px;
+    height: 100px;
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
-
+    background-color: black;
 }
-#container{
-    color: azure;
+.heading {
+    background-color: aqua;
+    height: 50px;
+    width: 400px;
+    border-radius: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.h1{
+    background-color: rgb(91, 23, 158);
+    margin: 3px;
+    padding:3px;
+}
+.container{
+    background-color: rgb(204, 12, 12);
+    height: 60vh;
+    width: 100%;
+}
+.time{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.button_cointainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .digit{
     font-size: 150px;
